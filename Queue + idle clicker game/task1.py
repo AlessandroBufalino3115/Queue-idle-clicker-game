@@ -2,7 +2,7 @@ class Stack:
     def __init__(self):
         self.stack = []
 
-    def push(self, item):
+    def push(self, item): 
         self.stack.append(item)  # add to the end as last on in, first is out, therefore with pop() achieve what we want
 
     def pop(self):
@@ -31,7 +31,7 @@ class Queue:
 
 if __name__ == "__main__":
     stack = Stack()
-
+    print("this works")
     stack.push(1)
     stack.push(2)
     stack.push(3)
